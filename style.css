@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: black;
+    color:white;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container{
+    width:100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.box{
+    width: 114px;
+    height: 155px;
+    background: rgb(42, 70, 42);
+    margin: auto;
+    margin: 60px;
+    justify-content: space-around;
+    border-radius: 18px 204px;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-top: 200px;
+   
+   
+}
+    #box1:hover{
+    animation-name:ravi1;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+    }
+
+
+@keyframes ravi1{
+from{
+    transform:rotate(360deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
+#box2:hover{
+    animation-name:ravi1;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+    }
+
+
+@keyframes ravi1{
+from{
+    transform:rotate(360deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
+#box3:hover{
+    animation-name:ravi1;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+    }
+
+
+@keyframes ravi1{
+from{
+    transform:rotate(360deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
+#box4:hover{
+    animation-name:ravi1;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+    }
+
+
+@keyframes ravi1{
+from{
+    transform:rotate(360deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
+#box5:hover{
+    animation-name:ravi1;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+    }
+
+
+@keyframes ravi1{
+from{
+    transform:rotate(360deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
+@media(max-width:670px){
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+ .container{
+       
+        display:block;
+        margin-left: 120px;
+ }
+}
+
